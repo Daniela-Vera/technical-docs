@@ -7,20 +7,12 @@
 
 
 | Campo | Valor |
-
 |-------|-------|
-
 | \*\*Versión\*\* | 1.0 |
-
 | \*\*Fecha última actualización\*\* | 2024-02-18 |
-
 | \*\*Propietario\*\* | Daniela Vera |
-
 | \*\*Aprobado por\*\* | \[Nombre del aprobador] |
-
 | \*\*Nivel de criticidad\*\* | Alto |
-
-
 
 ---
 
@@ -65,13 +57,9 @@ Este runbook establece el procedimiento estándar para la implementación contro
 
 
 | Tipo | Descripción | Aprobación Requerida | Ventana |
-
 |------|-------------|----------------------|---------|
-
 | \*\*Estándar\*\* | Cambios pre-aprobados, bajo riesgo | Change Manager | Horario laboral |
-
 | \*\*Normal\*\* | Cambios planificados, impacto moderado | CAB (Change Advisory Board) | Fuera de horario |
-
 | \*\*Emergencia\*\* | Parches críticos de seguridad, outages | CTO + Change Manager | Inmediato |
 
 
@@ -745,17 +733,11 @@ git push origin main
 
 
 | Situación | Contacto | Tiempo |
-
 |-----------|----------|--------|
-
 | Cambio normal con problemas menores | Team Lead | Inmediato |
-
 | Cambio con impacto a usuarios | Service Manager | < 15 min |
-
 | Rollback requerido | Change Manager + CTO | Inmediato |
-
 | Outage en producción | Incident Commander | Inmediato |
-
 
 
 ---
@@ -787,9 +769,7 @@ git push origin main
 
 
 | Versión | Fecha | Autor | Descripción |
-
 |---------|-------|-------|-------------|
-
 | 1.0 | 2024-02-18 | Daniela Vera | Versión inicial |
 
 

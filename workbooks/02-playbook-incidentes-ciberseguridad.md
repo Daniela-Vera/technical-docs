@@ -5,21 +5,13 @@
 \## Información del Documento
 
 
-
 | Campo | Valor |
-
 |-------|-------|
-
 | \*\*Versión\*\* | 1.0 |
-
 | \*\*Fecha última actualización\*\* | 2024-02-18 |
-
 | \*\*Propietario\*\* | Daniela Vera |
-
 | \*\*Clasificación\*\* | Confidencial |
-
 | \*\*Nivel de criticidad\*\* | Crítico |
-
 
 
 ---
@@ -65,20 +57,12 @@ Este playbook establece el procedimiento de respuesta ante incidentes de segurid
 \## Clasificación de Incidentes
 
 
-
 | Severidad | Descripción | Tiempo de Respuesta |
-
 |-----------|-------------|---------------------|
-
 | \*\*Crítica\*\* | Compromiso de sistemas core, exfiltración masiva de datos | Inmediato (< 15 min) |
-
 | \*\*Alta\*\* | Acceso no autorizado a sistemas sensibles, malware detectado | < 1 hora |
-
 | \*\*Media\*\* | Intento de acceso no autorizado, vulnerabilidad explotable | < 4 horas |
-
 | \*\*Baja\*\* | Anomalías menores, intentos fallidos de ataque | < 24 horas |
-
-
 
 ---
 
@@ -321,20 +305,12 @@ netstat -antp | grep ESTABLISHED
 
 
 | Rol | Responsabilidades | Contacto |
-
 |-----|-------------------|----------|
-
 | \*\*Incident Commander\*\* | Coordinar respuesta, tomar decisiones críticas | \[Nombre] - ext. 5001 |
-
 | \*\*Security Analyst\*\* | Análisis técnico, forense, contención | \[Nombre] - ext. 5002 |
-
 | \*\*IT Operations\*\* | Soporte técnico, restauración de sistemas | \[Nombre] - ext. 5003 |
-
 | \*\*Legal/Compliance\*\* | Aspectos legales, notificaciones regulatorias | \[Nombre] - ext. 5004 |
-
 | \*\*Communications\*\* | Comunicación interna y externa | \[Nombre] - ext. 5005 |
-
-
 
 ---
 
@@ -449,13 +425,9 @@ netstat -antp | grep ESTABLISHED
 \## Registro de Cambios
 
 
-
 | Versión | Fecha | Autor | Descripción |
-
 |---------|-------|-------|-------------|
-
 | 1.0 | 2024-02-18 | Daniela Vera | Versión inicial |
-
 
 
 ---
